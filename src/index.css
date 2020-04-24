@@ -11,11 +11,24 @@ body {
  src: url("../src/assets/Kavoon-Regular.ttf");
 }
 
-.cover {
+.title {
  font-family: kavoon-regular;
- font-size: 40px;
+ font-size: 30px;
  font-weight: bolder;
  color: white;
+ margin: 0;
+ padding-top: 50px;
+ margin-left: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.subtitle {
+ font-family: roboto;
+ font-size: 25px;
+ font-weight: bolder;
+ color: #ffd850;
  margin: 0;
  padding: 50px;
  display: flex;
@@ -27,9 +40,29 @@ body {
  background-image: url("./assets/cover_purple.png");
  background-repeat: "no-repeat";
  background-size: cover;
+ height: 180vh;
 }
 
 .front_cover {
  width: 70%;
  height: auto;
+}
+
+.textbox {
+ width: 310px;
+ color: white;
+ font-size: 20px;
+ font-weight: 700;
+ padding-left: 60px;
+ position: absolute;
+ top: 130vh;
+}
+
+.symbol_cruz {
+ width: 150px;
+ padding-right: 10%;
+ display: flex;
+ position: absolute;
+ top: 132vh;
+ right: 10px;
 }
