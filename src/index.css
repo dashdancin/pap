@@ -24,9 +24,9 @@ body {
 }
 
 .background-cover {
- background-image: url("./assets/background_purple.png");
+ background-image: url("./assets/cover_purple.png");
  background-repeat: "no-repeat";
- background-size: "cover";
+ background-size: cover;
 }
 
 .front_cover {
