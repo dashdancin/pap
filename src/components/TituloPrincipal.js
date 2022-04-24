@@ -6,9 +6,11 @@ import "../index.css";
 export default function TituloPrincipal() {
  return (
   <div className="background-cover">
-   <img className="img_cover" src={img_cover} alt="imagen de bienestar" />
-   <h1 className="title">GUÍA DE PRIMEROS AUXILIOS PSICOLÓGICOS</h1>
+   <h1 className="title">
+    GUÍA DE FORMACIÓN BÁSICA PRIMEROS AUXILIOS PSICOLÓGICOS
+   </h1>
    <h2 className="subtitle">Para asistir a otros cuando más lo necesitan</h2>
+   <img className="img_cover" src={img_cover} alt="imagen de bienestar" />
    <p className="textbox">
     Basado en el protocolo A B C D E de Primeros Auxilios Psicológicos de la
     Universidad Católica de Chile en colaboración con el CIGIDEN.
