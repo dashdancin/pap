@@ -1,12 +1,12 @@
 import "./App.css";
 import Cover from "./components/Cover";
-import Definition from "./components/Definition";
+import ConceptDefinition from "./components/ConceptDefinition";
 
 function App() {
  return (
   <>
    <Cover />
-   <Definition />
+   <ConceptDefinition />
   </>
  );
 }

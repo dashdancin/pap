@@ -95,9 +95,9 @@ body {
 }
 
 .footer-container {
+ height: 140px;
  display: flex;
  justify-content: space-between;
- height: 140px;
 }
 
 .textbox {
