@@ -64,18 +64,18 @@ body {
 
 .subtitle {
  display: flex;
- text-align: center;
  justify-content: center;
+ text-align: center;
  margin: 0;
  padding-top: 10px;
 }
 
 .subtitle {
- color: var(--font-subcolor);
- background-color: var(--main-color);
  font-family: FoundersGrotesk-Semibold;
  font-size: var(--size-subtitle);
  font-weight: bolder;
+ color: var(--font-subcolor);
+ background-color: var(--main-color);
 }
 
 .img_cover {
@@ -103,11 +103,14 @@ body {
 .textbox {
  color: var(--font-color);
  font-family: FoundersGrotesk-Regular;
- width: 370px;
  font-size: var(--size-text);
  font-weight: 500;
- display: inline-block;
+}
+
+.textbox {
+ width: 370px;
  margin-left: 50px;
+ display: inline-block;
  text-align: center;
 }
 
