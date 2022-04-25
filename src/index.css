@@ -11,12 +11,6 @@ html {
  --font-subcolor: #fecc1b;
 }
 
-/* Propiedades de Texto
-Propiedades de Posicionmiento
-Propiedades de Modelo de caja (Tamaños)
-Propiedades de Color
-Propiedades de Cursor */
-
 body {
  margin: 0;
 }
@@ -43,23 +37,37 @@ body {
 
 .background-cover {
  height: 110vh;
+}
+
+.background-cover {
  background-color: var(--main-color);
  background-repeat: repeat-x;
 }
 
 .title {
- color: var(--font-color);
- background-color: var(--main-color);
- font-family: FoundersGrotesk-Bold;
- font-size: var(--size-title);
- font-weight: bolder;
  margin: 0;
- padding-top: 40px;
  margin-left: 20px;
+ padding-top: 40px;
  display: flex;
  align-items: center;
  justify-content: center;
  text-align: center;
+}
+
+.title {
+ font-family: FoundersGrotesk-Bold;
+ font-size: var(--size-title);
+ font-weight: bolder;
+ color: var(--font-color);
+ background-color: var(--main-color);
+}
+
+.subtitle {
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ margin: 0;
+ padding-top: 10px;
 }
 
 .subtitle {
@@ -68,11 +76,6 @@ body {
  font-family: FoundersGrotesk-Semibold;
  font-size: var(--size-subtitle);
  font-weight: bolder;
- margin: 0;
- padding-top: 10px;
- display: flex;
- text-align: center;
- justify-content: center;
 }
 
 .img_cover {
