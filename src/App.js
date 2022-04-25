@@ -5,8 +5,14 @@ import ConceptDefinition from "./components/ConceptDefinition";
 function App() {
  return (
   <>
-   <Cover />
-   <ConceptDefinition />
+   <div className="fragment">
+    <div className="cover">
+     <Cover />
+    </div>
+    <div className="concept">
+     <ConceptDefinition />
+    </div>
+   </div>
   </>
  );
 }

@@ -35,10 +35,27 @@ body {
  src: url("../src/assets/FoundersGrotesk-Bold.otf");
 }
 
-.background-cover {
- height: 110vh;
+.fragment {
+ display: grid;
+ grid-template-columns: ;
+ grid-template-rows: repeat(2, 1fr);
+ grid-column-gap: 0px;
+ grid-row-gap: 0px;
 }
 
+.cover {
+ grid-area: 1 / 1 / 2 / 2;
+}
+.concept {
+ grid-area: 2 / 1 / 3 / 2;
+}
+.concept {
+ background-color: rgb(3, 94, 146);
+}
+
+.background-cover {
+ height: 85vh;
+}
 .background-cover {
  background-color: var(--main-color);
  background-repeat: repeat-x;
@@ -53,7 +70,6 @@ body {
  justify-content: center;
  text-align: center;
 }
-
 .title {
  font-family: FoundersGrotesk-Bold;
  font-size: var(--size-title);
@@ -69,7 +85,6 @@ body {
  margin: 0;
  padding-top: 10px;
 }
-
 .subtitle {
  font-family: FoundersGrotesk-Semibold;
  font-size: var(--size-subtitle);
@@ -101,21 +116,20 @@ body {
 }
 
 .textbox {
+ width: 370px;
+ margin-left: 15rem;
+ display: inline-block;
+ text-align: center;
+}
+.textbox {
  color: var(--font-color);
  font-family: FoundersGrotesk-Regular;
  font-size: var(--size-text);
  font-weight: 500;
 }
 
-.textbox {
- width: 370px;
- margin-left: 50px;
- display: inline-block;
- text-align: center;
-}
-
 .img-container {
- margin-right: 50px;
+ margin-right: 15rem;
 }
 
 .symbol_cruz {
@@ -123,8 +137,40 @@ body {
  margin-bottom: 16px;
 }
 
-.title-definition {
- background-color: rgb(238, 235, 64);
- height: 400px;
- width: auto;
+/* .bg-CD {
+ background-color: #a301e7;
+} */
+
+.title-ConceptDefinition {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ margin: 0;
+ padding-top: 60px;
+}
+.title-ConceptDefinition {
+ color: var(--font-subcolor);
+ font-family: FoundersGrotesk-Bold;
+ font-size: var(--size-subtitle);
+ font-weight: bolder;
+ margin-bottom: 3.5rem;
+}
+
+.text-ConceptDefinition {
+ color: var(--font-color);
+ font-family: FoundersGrotesk-Regular;
+ font-size: var(--size-text);
+ font-weight: 500;
+}
+.text-ConceptDefinition {
+ width: 700px;
+ margin-left: 10rem;
+ position: relative;
+ display: inline-block;
+ text-align: center;
+}
+
+.img1-ConceptDefinition {
+ width: 600px;
 }
