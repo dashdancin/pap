@@ -1,10 +1,12 @@
 import "./App.css";
-import TituloPrincipal from "./components/TituloPrincipal";
+import Cover from "./components/Cover";
+import Definition from "./components/Definition";
 
 function App() {
  return (
   <>
-   <TituloPrincipal />
+   <Cover />
+   <Definition />
   </>
  );
 }

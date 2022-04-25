@@ -1,9 +1,7 @@
-import React from "react";
 import img_cover from "../assets/img_cover.jpg";
 import orange_cruz from "../assets/orange_cruz.png";
-import "../index.css";
 
-export default function TituloPrincipal() {
+export default function Cover() {
  return (
   <div className="background-cover">
    <h1 className="title">
@@ -16,7 +14,6 @@ export default function TituloPrincipal() {
      <p>
       Basado en el protocolo A B C D E de Primeros Auxilios Psicológicos de la
       Universidad Católica de Chile
-      <br /> <br />
      </p>
     </span>
     <div className="img-container">

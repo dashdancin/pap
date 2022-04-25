@@ -2,18 +2,28 @@ html {
  font-size: 62.5%; /* =10px */
 }
 
+:root {
+ --size-title: 3.8rem;
+ --size-subtitle: 3.2rem;
+ --size-text: 2.6rem;
+ --main-color: #6e0d94;
+ --font-color: #ffffff;
+ --font-subcolor: #fecc1b;
+}
+
+/* Propiedades de Texto
+Propiedades de Posicionmiento
+Propiedades de Modelo de caja (Tamaños)
+Propiedades de Color
+Propiedades de Cursor */
+
 body {
  margin: 0;
 }
 
 @font-face {
- font-family: "FoundersGrotesk-Bold";
- src: url("../src/assets/FoundersGrotesk-Bold.otf");
-}
-
-@font-face {
- font-family: "FoundersGrotesk-Semibold";
- src: url("../src/assets/FoundersGrotesk-Semibold.otf");
+ font-family: "FoundersGrotesk-Regular";
+ src: url("../src/assets/FoundersGrotesk-Regular.otf");
 }
 
 @font-face {
@@ -22,22 +32,27 @@ body {
 }
 
 @font-face {
- font-family: "FoundersGrotesk-Regular";
- src: url("../src/assets/FoundersGrotesk-Regular.otf");
+ font-family: "FoundersGrotesk-Semibold";
+ src: url("../src/assets/FoundersGrotesk-Semibold.otf");
+}
+
+@font-face {
+ font-family: "FoundersGrotesk-Bold";
+ src: url("../src/assets/FoundersGrotesk-Bold.otf");
 }
 
 .background-cover {
- background-color: #6e0d94;
- height: 180vh;
+ height: 110vh;
+ background-color: var(--main-color);
  background-repeat: repeat-x;
 }
 
 .title {
+ color: var(--font-color);
+ background-color: var(--main-color);
  font-family: FoundersGrotesk-Bold;
- font-size: 3.8rem;
+ font-size: var(--size-title);
  font-weight: bolder;
- color: white;
- background-color: #6e0d94;
  margin: 0;
  padding-top: 40px;
  margin-left: 20px;
@@ -48,11 +63,11 @@ body {
 }
 
 .subtitle {
+ color: var(--font-subcolor);
+ background-color: var(--main-color);
  font-family: FoundersGrotesk-Semibold;
- font-size: 3.2rem;
+ font-size: var(--size-subtitle);
  font-weight: bolder;
- color: #ffd850;
- background-color: #6e0d94;
  margin: 0;
  padding-top: 10px;
  display: flex;
@@ -67,9 +82,9 @@ body {
 
 @media only screen and (max-width: 720px) {
  .background-cover {
-  color: white;
+  color: var(--font-color);
+  background-color: var(--main-color);
   width: 100vh;
-  background-attachment: #6e0d94;
  }
  .img_cover {
   width: 80%;
@@ -83,11 +98,11 @@ body {
 }
 
 .textbox {
+ color: var(--font-color);
  font-family: FoundersGrotesk-Regular;
  width: 370px;
- color: white;
- font-size: 26px;
- font-weight: 700;
+ font-size: var(--size-text);
+ font-weight: 500;
  display: inline-block;
  margin-left: 50px;
  text-align: center;
@@ -100,4 +115,10 @@ body {
 .symbol_cruz {
  width: 120px;
  margin-bottom: 16px;
+}
+
+.title-definition {
+ background-color: rgb(238, 235, 64);
+ height: 400px;
+ width: auto;
 }
