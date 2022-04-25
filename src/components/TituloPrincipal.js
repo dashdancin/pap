@@ -13,7 +13,7 @@ export default function TituloPrincipal() {
    <img className="img_cover" src={img_cover} alt="imagen de bienestar" />
    <p className="textbox">
     Basado en el protocolo A B C D E de Primeros Auxilios Psicológicos de la
-    Universidad Católica de Chile en colaboración con el CIGIDEN.
+    Universidad Católica de Chile
    </p>
    <img className="symbol_cruz" src={orange_cruz} alt="symbol_orange_cruz" />
   </div>

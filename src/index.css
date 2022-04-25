@@ -24,7 +24,8 @@ body {
 
 .background-cover {
  background-color: #6e0d94;
- height: 120vh;
+ height: 180vh;
+ background-repeat: repeat-x;
 }
 
 .title {
@@ -32,6 +33,7 @@ body {
  font-size: 40px;
  font-weight: bolder;
  color: white;
+ background-color: #6e0d94;
  margin: 0;
  padding-top: 40px;
  margin-left: 20px;
@@ -41,16 +43,12 @@ body {
  text-align: center;
 }
 
-@media only screen and (min-width: 420px) {
- .title {
-  color: green;
- }
-}
 .subtitle {
  font-family: FoundersGrotesk-Semibold;
  font-size: 35px;
  font-weight: bolder;
  color: #ffd850;
+ background-color: #6e0d94;
  margin: 0;
  padding-top: 10px;
  display: flex;
@@ -58,22 +56,43 @@ body {
  justify-content: center;
 }
 
+.img_cover {
+ display: block;
+ margin: auto;
+}
+
+@media only screen and (max-width: 720px) {
+ .background-cover {
+  color: white;
+  width: 100vh;
+  background-attachment: #6e0d94;
+ }
+ .img_cover {
+  width: 80%;
+ }
+}
+
 .textbox {
  font-family: FoundersGrotesk-Regular;
  width: 350px;
- color: white;
- font-size: 20px;
+ color: rgb(37, 62, 175);
+ font-size: 25px;
  font-weight: 700;
  padding-left: 60px;
- position: absolute;
- top: 82vh;
+ position: relative;
  text-align: center;
 }
+
+/* @media only screen and (min-width: 420px) {
+ .textbox {
+  f
+ }
+} */
 
 .symbol_cruz {
  width: 150px;
  padding-right: 10%;
  position: absolute;
- top: 130vh;
+ top: 80vh;
  right: 10px;
 }
