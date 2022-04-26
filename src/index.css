@@ -87,7 +87,7 @@ body {
  margin: auto;
 }
 
-@media only screen and (max-width: 720px) {
+/* @media only screen and (max-width: 720px) {
  .background-cover {
   color: var(--font-color);
   background-color: var(--main-color);
@@ -96,11 +96,21 @@ body {
  .img_cover {
   width: 80%;
  }
+} */
+
+@media screen and (max-width: 1040px) {
+ .img_cover {
+  width: 80%;
+ }
+ .footer-container {
+  width: 400px;
+ }
 }
 
 .footer-container {
  height: 140px;
- width: 1200px;
+ width: 70%;
+ margin: auto;
  display: flex;
  justify-content: space-around;
  align-items: center;
