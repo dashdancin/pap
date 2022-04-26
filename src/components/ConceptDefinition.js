@@ -30,14 +30,21 @@ const ConceptDefinition = () => {
    </h2>
    <span className="subtext-ConceptDefinition">
     <p>
-     Los Primeros Auxilios Psicológicos están definidos como una técnica de
-     apoyo a personas que sufren una crisis emocional y tiene como objetivo
-     recuperar el equilibrio emocional y prevenir el desarrollo de secuelas
-     psicológicas.
+     Las crisis emocionales pueden ser detonadas por eventos como los desastres
+     naturales, accidentes graves, pérdida del empleo, la pérdida de seres
+     queridos, o los eventos de salud; como la pandemia que hemos padecido
+     recientemente, etc.
      <br />
-     Los Primeros Auxilios Psicológicos son un apoyo inmediato que se da a una
-     persona que sufre, en donde se da acompañamiento, escucha y se ofrece
-     movilización de recursos de apoyo.
+     <br />
+     La crisis emocional que viven los afectados puede incluir un estado
+     temporal de agitación, pensamiento caótico o desorganización y puede ir
+     acompañado de un sentimiento de estar desbordados o sobrepasados a la hora
+     de afrontar una situación o problema.
+     <br />
+     <br />
+     El abanico de respuestas de los afectados ante la crisis se produce en
+     distintas formas dependiendo del contexto y en diversos niveles dependiendo
+     de sus “herramientas” emocionales y formas de afrontar las adversidades.
     </p>
    </span>
    <img
