@@ -5,7 +5,7 @@ export default function Cover() {
  return (
   <div className="background-cover">
    <h1 className="title">
-    GUÍA DE FORMACIÓN BÁSICA PRIMEROS AUXILIOS PSICOLÓGICOS
+    GUÍA DE FORMACIÓN BÁSICA EN PRIMEROS AUXILIOS PSICOLÓGICOS
    </h1>
    <h2 className="subtitle">Para asistir a otros cuando más lo necesitan</h2>
    <img className="img_cover" src={img_cover} alt="imagen de bienestar" />

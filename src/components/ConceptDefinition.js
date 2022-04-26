@@ -5,7 +5,8 @@ const ConceptDefinition = () => {
  return (
   <div className="bg-CD">
    <h2 className="title-ConceptDefinition">
-    ¿Qué son los Primeros Auxilios Psicológicos o Primeros Auxilios Emocionales?
+    ¿Qué son los Primeros Auxilios Psicológicos <br />o Primeros Auxilios
+    Emocionales?
    </h2>
    <span className="text-ConceptDefinition">
     <p>

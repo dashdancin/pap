@@ -4,9 +4,9 @@ html {
 }
 
 :root {
- --size-title: 3.8rem;
+ --size-title: 3.6rem;
  --size-subtitle: 3.2rem;
- --size-text: 2.6rem;
+ --size-text: 2.2rem;
  --main-color: #6e0d94;
  --font-color: #ffffff;
  --font-subcolor: #fecc1b;
@@ -52,8 +52,9 @@ body {
 
 .title {
  margin: 0;
- margin-left: 20px;
  padding-top: 40px;
+ padding-bottom: 40px;
+ border: 0;
  display: flex;
  align-items: center;
  justify-content: center;
@@ -68,11 +69,12 @@ body {
 }
 
 .subtitle {
+ margin: 0;
+ border: 0;
  display: flex;
+ align-items: center;
  justify-content: center;
  text-align: center;
- margin: 0;
- padding-top: 10px;
 }
 .subtitle {
  font-family: FoundersGrotesk-Semibold;
@@ -85,23 +87,27 @@ body {
 .img_cover {
  display: block;
  margin: auto;
+ height: 420px;
+ width: 420px;
 }
 
-/* @media only screen and (max-width: 720px) {
- .background-cover {
-  color: var(--font-color);
-  background-color: var(--main-color);
-  background-size: cover;
+@media screen and (max-width: 1140px) {
+ .title {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
  }
- .img_cover {
-  width: 80%;
+}
+
+@media screen and (max-width: 1140px) {
+ .subtitle {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
  }
-} */
+}
 
 @media screen and (max-width: 1040px) {
- .img_cover {
-  width: 80%;
- }
  .footer-container {
   width: 400px;
  }
@@ -118,9 +124,10 @@ body {
 }
 
 .textbox {
- width: 370px;
+ width: 60vh;
+ height: 200px;
+ padding-top: 40px;
  display: inline-block;
- text-align: center;
 }
 .textbox {
  color: var(--font-color);
@@ -131,7 +138,7 @@ body {
 
 .symbol_cruz {
  width: 120px;
- margin-bottom: 16px;
+ margin-bottom: 30px;
 }
 
 .bg-CD {
@@ -166,7 +173,6 @@ body {
  margin-left: 10rem;
  position: relative;
  display: inline-block;
- text-align: center;
 }
 
 .subtext-ConceptDefinition {
@@ -176,16 +182,16 @@ body {
  font-weight: 500;
 }
 
-.subtext-ConceptDefinition {
- width: 700px;
- margin-left: 10rem;
+.text-ConceptDefinition {
+ width: 470px;
+ margin-left: 20rem;
  /* position: relative; */
  display: inline-block;
- text-align: center;
 }
 
 .img1-ConceptDefinition {
- width: 600px;
+ width: 500px;
+ display: inline-block;
 }
 
 .img2-ConceptDefinition {
