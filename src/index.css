@@ -113,7 +113,7 @@ body {
 .textbox {
  width: 310px;
  height: 90px;
- background-color: crimson;
+ background-color: var(--main-color);
  display: flex;
  align-items: center;
 }
