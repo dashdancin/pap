@@ -112,9 +112,10 @@ body {
 
 .textbox {
  width: 310px;
- height: 200px;
- padding-top: 40px;
- display: inline-block;
+ height: 90px;
+ background-color: crimson;
+ display: flex;
+ align-items: center;
 }
 .textbox {
  color: var(--font-color);
@@ -128,7 +129,7 @@ body {
 }
 
 .symbol_cruz {
- width: 120px;
+ width: 100px;
  margin-bottom: 30px;
 }
 
