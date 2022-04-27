@@ -8,7 +8,9 @@ export default function Cover() {
     GUÍA DE FORMACIÓN BÁSICA EN PRIMEROS AUXILIOS PSICOLÓGICOS
    </h1>
    <h2 className="subtitle">Para asistir a otros cuando más lo necesitan</h2>
-   <img className="img_cover" src={img_cover} alt="imagen de bienestar" />
+   <figure className="figure-cover">
+    <img className="img_cover" src={img_cover} alt="imagen de bienestar" />
+   </figure>
    <section className="footer-container">
     <span className="textbox">
      <p>
