@@ -14,7 +14,7 @@ export default function Cover() {
    <section className="footer-container">
     <span className="textbox">
      <p>
-      Basado en el protocolo A B C D E de Primeros Auxilios Psicológicos de la
+      Basado en el Protocolo A B C D E para Primeros Auxilios Psicológicos de la
       Universidad Católica de Chile
      </p>
     </span>
