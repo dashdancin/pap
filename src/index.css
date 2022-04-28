@@ -135,46 +135,6 @@ body {
  align-self: center;
 }
 
-@media screen and (max-width: 1140px) {
- .title {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
- }
-}
-
-@media screen and (max-width: 1140px) {
- .subtitle {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
- }
-}
-
-@media screen and (max-width: 1600px) {
- .figure-cover {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
- }
-}
-
-@media screen and (min-width: 1020px) {
- .footer-container {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
- }
-}
-
-@media screen and (min-width: 1180px) {
- .footer-container {
-  width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
- }
-}
-
 .bg-CD {
  background-color: #a301e7;
  background-size: cover;
@@ -222,7 +182,7 @@ body {
 .content {
  display: flex;
  justify-items: flex-start;
- border: solid red;
+ /* border: solid red; */
 }
 
 .figure-CD {
@@ -230,10 +190,11 @@ body {
  width: 400px;
  height: 300px;
  margin: auto;
+ background-color: var(--font-color2);
 }
 
 .img1-ConceptDefinition {
- width: 400px;
+ width: 450px;
  height: 300px;
  display: flex;
  justify-self: auto;
@@ -243,34 +204,9 @@ body {
  width: 450px;
 }
 
-@media screen and (max-width: 820px) {
- .title-ConceptDefinition {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: ;
- }
-}
-
 .text-ConceptDefinition {
  margin-left: 5vw;
  /* position: relative; */
  display: inline-block;
- background-color: rgb(241, 195, 78);
  justify-content: center;
-}
-
-@media screen and (max-width: 820px) {
- .content {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
- }
-}
-
-@media screen and (max-width: 900px) {
- .figure-CD .img1-ConceptDefinition {
-  width: 300px;
-  height: auto;
- }
 }
