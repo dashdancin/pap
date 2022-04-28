@@ -183,10 +183,11 @@ body {
  position: relative;
  display: flex;
  justify-content: center;
- /* text-align: center; */
+ text-align: center;
  margin: 0;
  padding-top: 60px;
 }
+
 .title-ConceptDefinition {
  color: var(--font-subcolor);
  font-family: FoundersGrotesk-Bold;
@@ -218,14 +219,17 @@ body {
 
 .text-ConceptDefinition {
  width: 470px;
- margin-left: 20rem;
+ /* margin-left: 20rem; */
  /* position: relative; */
  display: inline-block;
+ background-color: solid goldenrod;
+ justify-content: center;
 }
 
 .content {
  display: flex;
  justify-items: flex-start;
+ border: solid red;
 }
 
 .figure-CD {
@@ -244,4 +248,14 @@ body {
 
 .img2-ConceptDefinition {
  width: 450px;
+}
+
+@media screen and (max-width: 820px) {
+ .title-ConceptDefinition {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid red;
+  background-color: #6e0d94;
+ }
 }
