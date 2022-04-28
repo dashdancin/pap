@@ -183,7 +183,7 @@ body {
  position: relative;
  display: flex;
  justify-content: center;
- text-align: center;
+ /* text-align: center; */
  margin: 0;
  padding-top: 60px;
 }
@@ -192,7 +192,7 @@ body {
  font-family: FoundersGrotesk-Bold;
  font-size: var(--size-subtitle);
  font-weight: bolder;
- margin-bottom: 3.5rem;
+ margin-bottom: 1rem;
 }
 
 .text-ConceptDefinition {
@@ -201,11 +201,12 @@ body {
  font-size: var(--size-text);
  font-weight: 500;
 }
+
 .text-ConceptDefinition {
  width: 700px;
- margin-left: 10rem;
- position: relative;
- display: inline-block;
+ height: 300px;
+ /* margin-left: 10rem; */
+ /* display: inline-block; */
 }
 
 .subtext-ConceptDefinition {
@@ -222,9 +223,23 @@ body {
  display: inline-block;
 }
 
-.img1-ConceptDefinition {
- width: 500px;
+.content {
+ display: flex;
+ justify-items: flex-start;
+}
+
+.figure-CD {
  display: inline-block;
+ width: 400px;
+ height: 300px;
+ margin: auto;
+}
+
+.img1-ConceptDefinition {
+ width: 400px;
+ height: 300px;
+ display: flex;
+ justify-self: auto;
 }
 
 .img2-ConceptDefinition {

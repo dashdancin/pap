@@ -8,24 +8,29 @@ const ConceptDefinition = () => {
     ¿Qué son los Primeros Auxilios Psicológicos <br />o Primeros Auxilios
     Emocionales?
    </h2>
-   <span className="text-ConceptDefinition">
-    <p>
-     Los Primeros Auxilios Psicológicos están definidos como una técnica de
-     apoyo a personas que sufren una crisis emocional y tiene como objetivo
-     recuperar el equilibrio emocional y prevenir el desarrollo de secuelas
-     psicológicas.
-     <br />
-     <br />
-     Los Primeros Auxilios Psicológicos son un apoyo inmediato que se da a una
-     persona que sufre, en donde se da acompañamiento, escucha y se ofrece
-     movilización de recursos de apoyo.
-    </p>
-   </span>
-   <img
-    className="img1-ConceptDefinition"
-    src={regulation_emotional}
-    alt="abrazo de consolación"
-   />
+   <div className="content">
+    <section className="text-ConceptDefinition">
+     <p>
+      Los Primeros Auxilios Psicológicos están definidos como una técnica de
+      apoyo a personas que sufren una crisis emocional y tiene como objetivo
+      recuperar el equilibrio emocional y prevenir el desarrollo de secuelas
+      psicológicas.
+      <br />
+      <br />
+      Los Primeros Auxilios Psicológicos son un apoyo inmediato que se da a una
+      persona que sufre, en donde se da acompañamiento, escucha y se ofrece
+      movilización de recursos de apoyo.
+     </p>
+    </section>
+    <figure className="figure-CD">
+     <img
+      className="img1-ConceptDefinition"
+      src={regulation_emotional}
+      alt="abrazo de consolación"
+     />
+    </figure>
+   </div>
+
    <h2 className="title-ConceptDefinition">
     ¿Qué son los Primeros Auxilios Psicológicos o Primeros Auxilios Emocionales?
    </h2>
