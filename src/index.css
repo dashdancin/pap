@@ -1,3 +1,7 @@
+html {
+ font-size: 62.5%; /* =10px */
+}
+
 body {
  margin: 0;
 }
@@ -30,7 +34,7 @@ body {
 
 .title {
  font-family: FoundersGrotesk-Bold;
- font-size: 40px;
+ font-size: 3.8rem;
  font-weight: bolder;
  color: white;
  background-color: #6e0d94;
@@ -45,7 +49,7 @@ body {
 
 .subtitle {
  font-family: FoundersGrotesk-Semibold;
- font-size: 35px;
+ font-size: 3.2rem;
  font-weight: bolder;
  color: #ffd850;
  background-color: #6e0d94;
@@ -70,24 +74,33 @@ body {
  .img_cover {
   width: 80%;
  }
+ /* .symbol_cruz {
+  display: inline-block;
+ } */
+}
+
+.footer-container {
+ display: flex;
+ justify-content: space-between;
+ height: 140px;
 }
 
 .textbox {
  font-family: FoundersGrotesk-Regular;
- width: 350px;
+ width: 370px;
  color: white;
- font-size: 25px;
+ font-size: 26px;
  font-weight: 700;
- margin: 0;
- padding-left: 60px;
- position: relative;
+ display: inline-block;
+ margin-left: 50px;
  text-align: center;
+}
+
+.img-container {
+ margin-right: 50px;
 }
 
 .symbol_cruz {
  width: 120px;
- padding-right: 10%;
- position: absolute;
- top: 80vh;
- right: 10px;
+ margin-bottom: 16px;
 }

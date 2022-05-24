@@ -11,11 +11,18 @@ export default function TituloPrincipal() {
    </h1>
    <h2 className="subtitle">Para asistir a otros cuando más lo necesitan</h2>
    <img className="img_cover" src={img_cover} alt="imagen de bienestar" />
-   <p className="textbox">
-    Basado en el protocolo A B C D E de Primeros Auxilios Psicológicos de la
-    Universidad Católica de Chile
-   </p>
-   <img className="symbol_cruz" src={orange_cruz} alt="symbol_orange_cruz" />
+   <section className="footer-container">
+    <span className="textbox">
+     <p>
+      Basado en el protocolo A B C D E de Primeros Auxilios Psicológicos de la
+      Universidad Católica de Chile
+      <br /> <br />
+     </p>
+    </span>
+    <div className="img-container">
+     <img className="symbol_cruz" src={orange_cruz} alt="symbol_orange_cruz" />
+    </div>
+   </section>
   </div>
  );
 }
