@@ -75,22 +75,17 @@ body {
 .textbox {
  font-family: FoundersGrotesk-Regular;
  width: 350px;
- color: rgb(37, 62, 175);
+ color: white;
  font-size: 25px;
  font-weight: 700;
+ margin: 0;
  padding-left: 60px;
  position: relative;
  text-align: center;
 }
 
-/* @media only screen and (min-width: 420px) {
- .textbox {
-  f
- }
-} */
-
 .symbol_cruz {
- width: 150px;
+ width: 120px;
  padding-right: 10%;
  position: absolute;
  top: 80vh;
